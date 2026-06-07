@@ -88,15 +88,15 @@
                         <div ref="editor" style="min-height:20em;height:calc( 100% - 128px )" v-text="source"></div>
 
                         <v-app-bar>
-                            <v-btn style="width:33%" href="https://github.com/sleepdiary/info/">
+                            <v-btn style="width:33%" href="https://github.com/zeitlog/info/">
                                 <v-icon>mdi-code-tags</v-icon>
                                 <span>Source code</span>
                             </v-btn>
-                            <v-btn style="width:33%" href="https://github.com/sleepdiary/info/blob/main/LICENSE">
+                            <v-btn style="width:33%" href="https://github.com/zeitlog/info/blob/main/LICENSE">
                                 <v-icon>mdi-copyright</v-icon>
                                 <span>License</span>
                             </v-btn>
-                            <v-btn style="width:33%" href="https://github.com/sleepdiary/info/issues/new">
+                            <v-btn style="width:33%" href="https://github.com/zeitlog/info/issues/new">
                                 <v-icon>mdi-message</v-icon>
                                 <span>Contact us</span>
                             </v-btn>
@@ -112,12 +112,12 @@
         <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.js"></script>
         <script src="https://pagecdn.io/lib/ace/1.4.12/ace.min.js" crossorigin="anonymous" integrity="sha256-T5QdmsCQO5z8tBAXMrCZ4f3RX8wVdiA0Fu17FGnU1vU=" ></script>
-        <script src="https://sleepdiary.github.io/core/sleepdiary-core.min.js"></script>
+        <script src="https://zeitlog.github.io/core/sleepdiary-core.min.js"></script>
         <script>
 
          const diary_loader = new window.DiaryLoader(
              diary => {
-                 location = 'https://sleepdiary.github.io/dashboard/#?'+diary.to("Standard").to("url");
+                 location = 'https://zeitlog.github.io/#?'+diary.to("Standard").to("url");
              }
          );
 
