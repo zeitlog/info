@@ -1,28 +1,44 @@
-# Sleep Diary Info
+# Zeitlog info
 
-Tools to improve your understanding of sleep:
+Analysis and charting tools used by the [Zeitlog](https://zeitlog.github.io/) tracker:
 
 - [detect common sleeping patterns](src/patterns.js)
 - [generate a prediction spreadsheet](src/prediction-spreadsheet.js)
 - [generate a sleep chart](src/sleep-chart.js)
 - [generate a graph of sleep-related events](src/event-graph.js)
 
-## Get Involved
+A fork of [sleepdiary/info](https://github.com/sleepdiary/info).
 
-### I found a bug, how should I tell you?
+## Project map
 
-[Create a new bug report](https://github.com/zeitlog/info/issues/new?assignees=&labels=&template=bug_report.md&title=) and we'll get right on it.
+Zeitlog (the tracker) and Zeitdex (docs & resources) for circadian rhythm disorders span a few repos across two GitHub orgs and one account:
 
-### I'd like to request a new feature, what should I say?
+**Zeitlog — tracker** · [@zeitlog](https://github.com/zeitlog) · <https://zeitlog.github.io/>
 
-Please [create a new feature request](https://github.com/zeitlog/info/issues/new?assignees=&labels=&template=feature_request.md&title=).  We'll try to sort out your problem.
+| Repo | Role |
+|---|---|
+| [zeitlog.github.io](https://github.com/zeitlog/zeitlog.github.io) | The tracker web app |
+| [core](https://github.com/zeitlog/core) | Sleep-diary format engines (parsing) |
+| [report](https://github.com/zeitlog/report) | Sleep-doctor report bundle |
+| [info](https://github.com/zeitlog/info) | Analysis & charts bundle |
 
-### I'd like to change the code, how do I get started?
+**Zeitdex — docs & resources** · [@zeitdex](https://github.com/zeitdex) · <https://zeitdex.github.io/>
 
-Take a look at our [getting started guide](https://github.com/zeitdex/docs/blob/main/development/getting-started.md).  Or if you'd like to talk to someone first, [open a discussion](https://github.com/zeitdex/zeitdex.github.io/discussions) and describe what you're planning.
+| Repo | Role |
+|---|---|
+| [zeitdex.github.io](https://github.com/zeitdex/zeitdex.github.io) | Docs & resources site (MkDocs) |
+| [docs](https://github.com/zeitdex/docs) | Documentation source |
+| [resources](https://github.com/zeitdex/resources) | Specialist & software directory data |
+
+**Pre-production** · [@wellivea1](https://github.com/wellivea1)
+
+| Repo | Role |
+|---|---|
+| [dashboard-vibecode](https://github.com/wellivea1/dashboard-vibecode) | Pre-prod tracker · <https://wellivea1.github.io/dashboard-vibecode/> |
+| [core-vibecode](https://github.com/wellivea1/core-vibecode) | Pre-prod core |
+
+Forked from the [Sleep Diary Project](https://github.com/sleepdiary).
 
 ## License
 
-Sleep Diary Info, Copyright © 2021 [Sleepdiary Developers](mailto:sleepdiary@pileofstuff.org)
-
-Sleep Diary Info comes with ABSOLUTELY NO WARRANTY.  This is free software, and you are welcome to redistribute it under certain conditions.  For details, see [the license statement](LICENSE).
+A fork of Sleep Diary info, © 2020–2021 Sleepdiary Developers. Free software (GPL-2.0-only) with ABSOLUTELY NO WARRANTY — see [LICENSE](LICENSE).
